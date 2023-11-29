@@ -1,0 +1,55 @@
+.container{
+    margin-top: 0.3rem;
+    background: #333;
+    color: #fff;
+} 
+
+.all{
+    display: flex;
+    gap: 1.7rem;
+    padding: 2rem;
+}
+
+.container h2{
+    text-align: center;
+}
+ 
+.container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+
+.main{
+    border: 2px solid gray;
+    height: 38rem;
+    width: 30rem;
+    margin-left: 1.3rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.main:hover{
+    transform: scale(0.9);
+}
+
+.img{
+    height: 16rem;
+    width: 18rem;
+    margin: 1rem 2rem;
+    margin-left: 5rem;
+}
+
+.para{
+    padding: 0.2rem;
+    margin-left: 0.4rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 0.5rem;
+}
